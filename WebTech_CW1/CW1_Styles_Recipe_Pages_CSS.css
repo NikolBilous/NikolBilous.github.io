@@ -152,4 +152,8 @@ img {
     display: block;
     margin: 0 auto;
 }
-  
+.parent-recipe-photo > img {
+    height: 200px;
+    width: 200px;
+    
+}
