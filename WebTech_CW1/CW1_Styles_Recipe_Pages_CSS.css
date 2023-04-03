@@ -143,6 +143,10 @@ h1 {
     max-width: 1300px;
 }
 
+.container {
+    display: flex;
+}
+
 .col-5 {
     grid-column: 3 / span 5; /* takes 5 columns starting from column 3 */
     padding: 20px; /* adds some padding */
