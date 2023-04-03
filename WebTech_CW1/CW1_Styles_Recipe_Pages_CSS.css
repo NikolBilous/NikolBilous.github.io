@@ -106,7 +106,7 @@ h1 {
     background-color: #f4f4f4;
     max-width: 346px;
     margin: 0 auto;
-    display: grid;
+    /* display: grid; */
     grid-column-gap: 35px;
     margin-left: 70px;
     margin-right: 70px;
