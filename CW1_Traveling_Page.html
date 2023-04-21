@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Holidays & Events</title>
+        <link rel="stylesheet" href="CW1_Styles_Landing_CSS.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1, 
+        shrink-to-fit=no, minimal-ui">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    
+        <style>
+            .recipe-image {
+	            margin: 20px auto;
+	            width: auto;
+	            height: 388px;
+	            background-image: url(Photos/traveling_bg.jpg);
+	            background-position: center;
+	            background-repeat: no-repeat;
+	            background-size: cover;
+            }
+
+            .recipe img {
+                width: 100%;
+                height: 300px !important;
+                object-fit: cover;
+                margin-bottom: 20px;
+            }
+
+            .recipe-grid {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-gap: 50px;
+                margin: 60px;
+            }
+
+            /* Set navigation bar style */
+            nav {
+                background-color: #c7d3c3;
+                padding: 15px 55px;
+                box-sizing: border-box;
+                display: flex;
+                justify-content: space-between;
+            }
+  
+            /* Set navigation links style */
+            nav a {
+                color: #2d3327;
+                text-decoration: none;
+                padding: 10px;
+                padding-left: 25px;
+                padding-right: 25px;
+                font-size: 20px;
+            }
+
+            nav a:hover {
+                font-weight: bold;
+            }
+
+
+            /* Media queries for tablet and phone versions */
+            @media screen and (max-width: 1024px) {
+                nav {
+                    flex-wrap: wrap;
+                }
+                nav a {
+                    flex: 1 0 100%;
+                    text-align: center;
+                    margin-bottom: 5px;
+                }
+            }
+  
+            @media screen and (max-width: 768px) {
+                nav a {
+                    padding: 5px;
+                    font-size: 14px;
+                }
+            }
+
+            /* Set footer style */
+            footer {
+                background-color: #c7d3c3;
+                padding: 10px 20px;
+                box-sizing: border-box;
+                justify-content: space-between;
+                margin: 20px;
+            }
+  
+            /* Set footer links style */
+            footer a {
+                color: #2d3327;
+                text-decoration: none;
+                padding: 5px;
+                transition: font-weight 0.2s ease-in-out;
+            }
+  
+            footer a:hover {
+                font-weight: bold;
+            }
+
+            /* Set header style */
+            h1 {
+                text-align: center;
+                font-size: 36px;
+                margin-top: 50px;
+                margin-bottom: 30px;
+            }
+
+            .Heading {
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+
+            /* Set paragraph style */
+            p {
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+  
+        </style>
+
+    </head>
+
+    <body>
+        
+        <header>
+            <h1 class="Heading">Cuisine</h1>
+        </header>
+        
+        <div class="nav-wrapper">
+            <nav>
+                <a href="CW1_Landing_Page.html">Recepies and Menus</a>
+                <a href="CW1_Expert`s_Advice.html">Expert's Advice</a>
+                <a href="CW1_Traveling_Page.html">Holidays &amp; Events</a>
+                <a href="CW1_About_Us_Page.html">About Me</a>
+              </nav>
+        </div>
+
+        <div class="recipe-image"></div>
+
+        <div class="main">
+            <h2>The Mediterranean Magazine</h2>
+            <div class="recipe-grid">
+                <div class="recipe">
+                    <a href="CW1_Article_Basque.html">
+                        <img src="Photos/traveling_basque_bg.jpg" alt="Recipe 1" class="recipe_img">
+                        <h3>5 Days In The Basque Country</h3>
+                    </a>
+                </div>
+
+                <div class="recipe">
+                    <a href="CW1_Article_Food_Love_Sail.html">
+                        <img src="Photos/Q&A_bg.jpg" alt="Recipe 2" class="recipe_img">
+                        <h3>Q&A with Food, Sail, Love: A Voyage Of Food & Culture</h3>
+                    </a>
+                </div>
+
+                <div class="recipe">
+                    <a href="CW1_Article_Argolida.html">
+                        <img src="Photos/Argolida_bg.jpg" alt="Recipe 3" class="recipe_img">
+                        <h3>A Local's Guide to Argolida</h3>
+                    </a>
+                </div>
+            </div>
+
+            <div class="separator"></div>
+
+        </div>
+    </body>
+
+    <footer>
+        <nav>
+            <a href="CW1_Landing_Page.html">Recepies and Menus</a>
+            <a href="CW1_Expert`s_Advice.html">Expert's Advice</a>
+            <a href="CW1_Traveling_Page.html">Holidays &amp; Events</a>
+            <a href="CW1_About_Us_Page.html">About Me</a>
+        </nav>
+        <div class="social-media-icons">
+            <a href="#"><img src="Photos/facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="Photos/twitter-icon.png" alt="Twitter"></a>
+            <a href="#"><img src="Photos/instagram-icon.webp" alt="Instagram"></a>
+        </div>
+    </footer>
+
+</html>
